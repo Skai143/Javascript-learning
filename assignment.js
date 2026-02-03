@@ -3,8 +3,8 @@
 /* 
 1). Write a function that takes a time in 24-hour format (e.g., 14) and returns 'Morning', 'Afternoon', 'Evening', or 'Night'.*/
 
-/*
-let time = 22.57
+
+let time = 29
 function morning_afternoon_night_evening() {
   if (time <= 12 && time >= 0) {
   console.log('morning');
@@ -18,7 +18,6 @@ function morning_afternoon_night_evening() {
 }
 
 morning_afternoon_night_evening()
-*/
 
 
 /* 
@@ -66,6 +65,7 @@ checkDivisibility()
 4). Write a function that takes a number and returns 'Palindrome' if it reads the same forward/backward, otherwise 'Not Palindrome'.
 */
 
+/*
 let x = 189981;
 let former = x.toString();
 let latter = former.split('').reverse().join('');
@@ -79,7 +79,7 @@ function palindromeCheck() {
 }
 
 palindromeCheck();
-
+*/
 
 
 
