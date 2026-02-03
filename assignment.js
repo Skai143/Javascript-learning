@@ -12,8 +12,10 @@ function morning_afternoon_night_evening() {
   console.log('Afternoon');
   } else if (time <= 18 && time > 16) {
   console.log('Evening');
-  } else {
+  } else if (time > 18 && time <= 24) {
   console.log('Night');
+  } else {
+  console.log('Time input should be between 0 - 24');
   }
 }
 
